@@ -37,7 +37,7 @@ span {
 .nav-container {
   display: flex;
   justify-content: space-between;
-  background: linear-gradient(white, lightblue);
+  background: linear-gradient(floralwhite, lightblue);
 }
 .nav-container>nav>ul {
   display: flex;
@@ -54,8 +54,41 @@ span {
 }
 
 
-@media(max-width: 900px) {
+@media(max-width: 1050px) {
   .nav-container {
     flex-direction: column;
   }
+}
+
+.text-page {
+  padding-left: 20px;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  width: 15%;
+  background-color: floralwhite;
+}
+
+.section {
+  width: 80%;
+}
+
+/* Header */
+.header>div {
+  width: 100%;
+}
+.header>div>img {
+  width: 100%;
+}
+.header>ol {
+  list-style: none;
+  border-bottom-style: solid;
+  border-width: 0.5px;
+  margin: 10px;
+  padding: 10px;
 }
